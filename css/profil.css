@@ -1,0 +1,131 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bg.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 50px;
+}
+ul li{
+	display: inline-block;
+	padding: 1px;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	transition: 0.6s;
+	margin-top: 10px;
+}
+ul li a:hover{
+	padding: 5px 20px;
+	background-color: white;
+	color: black;
+}
+ul li .drop2{
+	display: none;
+}
+ul li:hover .drop2{
+	margin-top: 1px;
+	display: block;
+	padding: 10px;
+	position: absolute;
+	background color: white;
+	color: black;
+}
+ul li:hover .drop2 li{
+	margin-top: 5px;
+	display: block;
+}
+ul li.active a{
+	background-color: white;
+	color: black;
+}
+.logo img{
+	float: left;
+	margin-top: 20px;
+	width: 150px;
+	height: auto;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	transform: translate(-50%;-50:);
+}
+.title h1{
+	position: absolute;
+	font-family: sans-serif;
+	color: white;
+	font-size: 30px;
+	top: 15%;
+	left: 25%;
+}
+.sejarah{
+	transform: translate(-50%;-50%);
+}
+.sejarah h1{
+	position: absolute;
+	top: 35%;
+	left: 3%;
+	right: 3%;
+	text-align: inherit;
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+}
+.sejarah h2{
+	position: absolute;
+	text-align: inherit;
+	font-family: 'marck script', cursive;
+	color: white;
+	font-size: 20px;
+	top: 45%;
+	left: 3%;
+	right: 3%;
+}
+.sejarah h3{
+	position: absolute;
+	text-align: inherit;
+	font-family: 'marck script', cursive;
+	color: white;
+	font-size: 20px;
+	top: 70%;
+	left: 3%;
+	right: 3%;
+}
+.visi{
+	position: absolute;
+	top: 600px;
+	left: 5%;
+	right: 30%;
+	width: 1100px; 
+	height: auto;
+	padding: 30px;
+	background: rgba(0,0,0,0.5);
+	border-radius: 20px;
+	transform: translate(-50%;-50%);
+}
+.visi h1{
+	font-family: sans-serif;
+	color: white;
+	font-size: 30px;
+	left: 10%;
+	text-align: left;
+}
+.visi h2{
+	font-family: sans-serif;
+	color: white;
+	font-size: 20px;
+	left: 50%;
+	text-align: justify;
+}

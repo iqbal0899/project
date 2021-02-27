@@ -1,0 +1,171 @@
+@media(min-width: 670px) and (max-width: 1024px){
+	.main{
+		width: 90%;
+	}
+	.logo{
+		width: 70%;
+		margin: 0-auto;
+		align-items: left;
+		float: none;
+	}
+	.logo img{
+		width: 150px;
+		height: 150px;
+		float: none;
+		display: flex;
+		margin: 20px;
+		margin-left: 55%;
+	}
+	ul{
+		float: none;
+		list-style-type: none;
+		margin-top: 5%;
+		margin-left: 8%;
+	}
+	ul li{
+		display: inline-block;
+		padding: 1px;
+		font-size: 20px;
+	}
+	.sejarah{
+		transform: translate(-50%;-50%);
+	}
+	.sejarah h1{
+		position: absolute;
+		top: 45%;
+		left: 3%;
+		right: 3%;
+		text-align: inherit;
+		font-weight: bold;
+		color: white;
+		font-size: 25px;
+	}
+	.sejarah h2{
+		position: absolute;
+		text-align: inherit;
+		font-family: 'marck script', cursive;
+		color: white;
+		font-size: 20px;
+		top: 52%;
+		left: 3%;
+		right: 3%;
+	}
+	.sejarah h3{
+		position: absolute;
+		text-align: inherit;
+		font-family: 'marck script', cursive;
+		color: white;
+		font-size: 20px;
+		top: 93%;
+		left: 3%;
+		right: 3%;
+	}
+	.visi{
+		position: absolute;
+		top: 123%;
+		left: 8%;
+		right: 30%;
+		width: 500px; 
+		height: auto;
+		padding: 30px;
+		background: rgba(0,0,0,0.5);
+		border-radius: 20px;
+		transform: translate(-50%;-50%);
+	}
+	.visi h1{
+		font-size: 21px;
+		left: 10%;
+		text-align: left;
+	}
+	.visi h2{
+		font-size: 15px;
+		left: 50%;
+		text-align: justify-all;
+	}
+}
+@media(min-width: 370px) and (max-width: 670px){
+	.main{
+		width: 90%;
+	}
+	.logo{
+		width: 70%;
+		margin: 0-auto;
+		align-items: left;
+		float: none;
+	}
+	.logo img{
+		width: 150px;
+		height: 150px;
+		float: none;
+		display: flex;
+		margin: 20px;
+		margin-top: 20%;
+		margin-left: 40%;
+	}
+	ul{
+		float: none;
+		list-style-type: none;
+		margin-top: 5%;
+		margin-left: 17%;
+	}
+	ul li{
+		display: inline-block;
+		margin-top: 5%;
+		font-size: 15px;
+	}
+	.sejarah{
+		transform: translate(-50%;-50%);
+	}
+	.sejarah h1{
+		position: absolute;
+		top: 48%;
+		left: 3%;
+		right: 3%;
+		text-align: inherit;
+		font-weight: bold;
+		color: white;
+		font-size: 15px;
+	}
+	.sejarah h2{
+		position: absolute;
+		text-align: inherit;
+		font-family: 'marck script', cursive;
+		color: white;
+		font-size: 13px;
+		top: 53%;
+		left: 3%;
+		right: 3%;
+	}
+	.sejarah h3{
+		position: absolute;
+		text-align: inherit;
+		font-family: 'marck script', cursive;
+		color: white;
+		font-size: 13px;
+		top: 84%;
+		left: 3%;
+		right: 3%;
+	}
+	.visi{
+		position: absolute;
+		top: 108%;
+		left: 8%;
+		right: 30%;
+		width: 250px; 
+		height: auto;
+		padding: 30px;
+		background: rgba(0,0,0,0.5);
+		border-radius: 20px;
+		transform: translate(-50%;-50%);
+	}
+	.visi h1{
+		font-size: 15px;
+		left: 10%;
+		text-align: left;
+	}
+	.visi h2{
+		font-size: 10px;
+		left: 50%;
+		text-align: justify-all;
+	}
+}
